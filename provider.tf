@@ -27,5 +27,6 @@ terraform {
     bucket = "terraform-server-b16"
     key    = "terrafromstate"
     region = "ap-south-1"
+    dynamodb_table  = "terraform-test"
   }
 }
